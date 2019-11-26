@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Test Suite]">
+  <test thread-count="5" name="Front End Test Cases with chrom(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testngPackage.testngParameterize">
+        <methods>
+          <include name="TestCase1"/>
+          <include name="setUpMethod"/>
+          <include name="clearDown"/>
+        </methods>
+      </class> <!-- testngPackage.testngParameterize -->
+    </classes>
+  </test> <!-- Front End Test Cases with chrom(failed) -->
+  <test thread-count="5" name="Front End Test Cases with FF(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testngPackage.testngParameterize">
+        <methods>
+          <include name="TestCase1"/>
+          <include name="setUpMethod"/>
+          <include name="clearDown"/>
+        </methods>
+      </class> <!-- testngPackage.testngParameterize -->
+    </classes>
+  </test> <!-- Front End Test Cases with FF(failed) -->
+</suite> <!-- Failed suite [Regression Test Suite] -->

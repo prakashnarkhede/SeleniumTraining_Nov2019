@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="My suite" parallel="tests" thread-count="5">
+  <test name="Front End Test Cases - V001" >
+  	<parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.automationtalks.RegressionSuite.VehicalInsuranceCalculator"/>
+    </classes>
+ </test>
+ <test name="Front End Test Cases - V0012" >
+  	<parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.automationtalks.RegressionSuite.VehicalInsuranceCalculator"/>
+    </classes>
+ </test>
+</suite>

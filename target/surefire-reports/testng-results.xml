@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="My suite" duration-ms="1083" started-at="2019-11-25T07:58:15 IST" finished-at="2019-11-25T07:58:16 IST">
+    <groups>
+    </groups>
+    <test name="Front End Test Cases - V001" duration-ms="1083" started-at="2019-11-25T07:58:15 IST" finished-at="2019-11-25T07:58:16 IST">
+      <class name="testngPackage.testng2Class">
+        <test-method status="PASS" signature="TestCase1()[pri:0, instance:testngPackage.testng2Class@5622fdf]" name="TestCase1" duration-ms="1013" started-at="2019-11-25T07:58:15 IST" finished-at="2019-11-25T07:58:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase1 -->
+      </class> <!-- testngPackage.testng2Class -->
+    </test> <!-- Front End Test Cases - V001 -->
+  </suite> <!-- My suite -->
+</testng-results>
